@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.app",
+  "webDir": "./src/dist",
+  "ios": {
+    "path": "../../ios",
+    "scheme": "ApP 1"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "appId": "com.example2.app",
+  "webDir": "./src/dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
