@@ -1,0 +1,47 @@
+PODS:
+  - Capacitor (6.1.0):
+    - CapacitorCordova
+  - CapacitorCamera (6.0.1):
+    - Capacitor
+  - CapacitorCordova (6.1.0)
+  - CapacitorSplashScreen (6.0.1):
+    - Capacitor
+  - NewRelicAgent (7.4.12)
+  - NewrelicNewrelicCapacitorPlugin (1.4.1):
+    - Capacitor
+    - NewRelicAgent (= 7.4.12)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCamera (from `../../node_modules/@capacitor/camera`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
+  - "NewrelicNewrelicCapacitorPlugin (from `../../node_modules/@newrelic/newrelic-capacitor-plugin`)"
+
+SPEC REPOS:
+  trunk:
+    - NewRelicAgent
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCamera:
+    :path: "../../node_modules/@capacitor/camera"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorSplashScreen:
+    :path: "../../node_modules/@capacitor/splash-screen"
+  NewrelicNewrelicCapacitorPlugin:
+    :path: "../../node_modules/@newrelic/newrelic-capacitor-plugin"
+
+SPEC CHECKSUMS:
+  Capacitor: 187bd7847b6f71467015a20200a1a071be3e5f14
+  CapacitorCamera: 3b77b3e8311b98220de65e63445c0e4d0b30ce3a
+  CapacitorCordova: be703980ca797f847c3356f78fa175d21c8330c2
+  CapacitorSplashScreen: 61645214e8f955ff2b80f16a6a3648960fe4c89f
+  NewRelicAgent: 4b8ca7cad21bff3cdaa2824c1f814ff7b34ba382
+  NewrelicNewrelicCapacitorPlugin: 0ec904a4c55eb4362c678c0b706a614b8f1ffd6c
+
+PODFILE CHECKSUM: 919ede03559a7dafa1bb3659303379a1d2af9083
+
+COCOAPODS: 1.15.2

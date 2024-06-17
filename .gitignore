@@ -1,7 +1,5 @@
 *.log
 npm-debug.log*
-ios
-android
 
 node_modules
 dist
