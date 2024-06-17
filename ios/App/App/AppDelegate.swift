@@ -1,5 +1,15 @@
 import UIKit
 import Capacitor
+import NewrelicNewrelicCapacitorPlugin
+
+class NYPLCapacitorViewController: CAPBridgeViewController {
+    override open func capacitorDidLoad() {
+        super.capacitorDidLoad()
+        print("NYPLCapacitorViewController::capacitorDidLoad: registering NR plugin")
+        let plugin = NewRelicCapacitorPluginPlugin()
+        bridge?.registerPluginInstance(plugin)
+    }
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
