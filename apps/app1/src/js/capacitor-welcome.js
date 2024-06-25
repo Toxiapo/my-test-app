@@ -5,7 +5,7 @@ import {
   NREnums,
 } from "@newrelic/newrelic-capacitor-plugin";
 
-const appkey = "";
+const token = "s123";
 
 const agentConfig = {
   // Android specific option
@@ -46,7 +46,7 @@ const agentConfig = {
 };
 
 NewRelicCapacitorPlugin.start({
-  appKey: appKey,
+  appKey: token,
   agentConfiguration: agentConfig,
 });
 

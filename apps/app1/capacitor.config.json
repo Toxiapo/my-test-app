@@ -3,7 +3,7 @@
   "webDir": "./src/dist",
   "ios": {
     "path": "../../ios",
-    "scheme": "ApP 1"
+    "scheme": "App"
   },
   "plugins": {
     "SplashScreen": {
